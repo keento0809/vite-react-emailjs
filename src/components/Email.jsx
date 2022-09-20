@@ -1,10 +1,11 @@
 import React from "react";
+import ContactForm from "./ContactForm";
 
 const Email = () => {
   return (
     <div>
       Email JS
-      <p>This is {import.meta.env.VITE_TEST}</p>
+      <ContactForm />
     </div>
   );
 };
